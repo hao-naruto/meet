@@ -1,0 +1,28 @@
+.Day {
+    line-height: 1;
+    width: 17px;
+    vertical-align: middle;
+    height: 17px;
+    float: left;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(255, 222, 222);
+    color: black;
+}
+.aDay{
+    line-height: 1;
+    width: 17px;
+    vertical-align: middle;
+    height: 117px;
+    float: left;
+    border: 1px solid black;
+    padding: 2px;
+    margin: 1px;
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(255, 222, 222);
+    color: black;
+}

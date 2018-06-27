@@ -1,0 +1,67 @@
+@CHARSET "UTF-8";
+.GroupGrid{
+	background-color:black;
+	display:inline;
+}
+.leftB{
+	display:inline-block;
+	*display:inline;
+	zoom:1; 
+	vertical-align:bottom;
+	text-align:right;
+}
+.leftBin {
+	font-size:0px;
+	vertical-align:top;
+}
+.leftBinin{
+	style="vertical-align:top;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	width:45px;
+	height:9px;
+	font-size:0px;
+	border-left: 1px white solid;
+	margin-top: 1px;
+	border-right: 1px white solid;
+}
+.rightB{
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	vertical-align:bottom;
+	text-align:right;
+}
+.rightBleftup{
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	text-align:center;
+	font-size:10px;
+	width:44px;
+	padding-right:1px;
+	
+}
+.rightBleftdown{
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	font-size:16px;
+}
+.twoSmallSlot{
+	font-size:0px;
+	vertical-align:top;
+}
+.smallSlot{
+	vertical-align:top;
+	display:inline-block;
+	*display:inline;
+	zoom:1;
+	width:45px;
+	height:9px;
+	font-size:0px;
+	border-left: 1px black solid;
+	background: #808080;
+	border-top: 1px black solid;
+}
