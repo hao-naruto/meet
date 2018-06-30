@@ -1,5 +1,5 @@
 package entity;
-
+import util.MD5;
 /**
  *  用户
  * @author wanghao
