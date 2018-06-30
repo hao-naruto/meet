@@ -32,7 +32,7 @@ public class User {
 		return password;
 	}
 	public void setPassword(String password) {
-		this.password = password;
+		this.password = MD5.md5(password);
 	}
 	public String getEventID() {
 		return eventID;
