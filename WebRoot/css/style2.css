@@ -66,5 +66,8 @@ body {
 
 #MainBody {
   padding: 10px;
-  background-color:white;
+  background: #D7E8C9;
+  
+	border-radius: 5px;
+	height: 100%;
 }
