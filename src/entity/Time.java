@@ -44,4 +44,19 @@ public class Time {
 		this.eventID = eventID;
 	}
 	
+	/**
+	 * 获取 月份 和日期
+	 * @return
+	 */
+	public String getMonthandDate(){
+		
+		return TimeDealUtil.getMonth(date) + " " + TimeDealUtil.getDate(date);
+		
+	}
+	
+	public String getDay(){
+		
+		return TimeDealUtil.getDay(date);
+	}
+	
 }
