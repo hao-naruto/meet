@@ -770,8 +770,8 @@ var AvailableIDs=new Array();
                 </div>
                 <div style="display:inline-block;*display:inline;zoom:1;vertical-align:bottom;text-align:right;">
 					<c:forEach var="s" items="${bigtime }">
-						<div style="display:inline-block;*display:inline;zoom:1;text-align:center;font-size:10px;width:44px;padding-right:1px;"><c:out value="${s.getDate() }"></c:out><br>
-						<div style="display:inline-block;*display:inline;zoom:1;font-size:16px;">Fri</div></div>
+						<div style="display:inline-block;*display:inline;zoom:1;text-align:center;font-size:10px;width:44px;padding-right:1px;"><c:out value="${s.getMonthandDate() }"></c:out><br>
+						<div style="display:inline-block;*display:inline;zoom:1;font-size:16px;"><c:out value="${s.getDay() }"></c:out></div></div>
 					</c:forEach>
 					
 				<div id="YouGridSlots" class="GroupGrid" style="background-color:white; display:inline">
@@ -818,8 +818,8 @@ var AvailableIDs=new Array();
                 </div>
                 <div style="display:inline-block;*display:inline;zoom:1;vertical-align:bottom;text-align:right;">
 					<c:forEach var="s" items="${bigtime }">
-						<div style="display:inline-block;*display:inline;zoom:1;text-align:center;font-size:10px;width:44px;padding-right:1px;"><c:out value="${s.getDate() }"></c:out><br>
-						<div style="display:inline-block;*display:inline;zoom:1;font-size:16px;">Fri</div></div>
+						<div style="display:inline-block;*display:inline;zoom:1;text-align:center;font-size:10px;width:44px;padding-right:1px;"><c:out value="${s.getMonthandDate() }"></c:out><br>
+						<div style="display:inline-block;*display:inline;zoom:1;font-size:16px;"><c:out value="${s.getDay() }"></c:out></div></div>
 					</c:forEach>
 					
 				<div id="GroupGridSlots" class="GroupGrid" style="background-color:white; display:inline">
